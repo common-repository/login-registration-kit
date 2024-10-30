@@ -1,0 +1,75 @@
+/*------------- #TOGGLE BUTTON --------------*/
+
+.tk-lp-toggle-button {
+  vertical-align: middle;
+  margin-bottom: 20px;
+}
+.tk-lp-toggle-button, .tk-lp-toggle-button label, .tk-lp-toggle-button input, .tk-lp-toggle-button .tk-lp-toggle {
+  user-select: none;
+}
+.tk-lp-toggle-button label {
+  cursor: pointer;
+  color: rgba(0,0,0, 0.26);
+}
+.form-group.is-focused .tk-lp-toggle-button label, .form-group.has-bootstrap-select .tk-lp-toggle-button label {
+  color: rgba(0,0,0, 0.26);
+}
+.form-group.is-focused .tk-lp-toggle-button label:hover, .form-group.is-focused .tk-lp-toggle-button label:focus {
+  color: rgba(0,0,0, .54);
+}
+fieldset[disabled] .form-group.is-focused .tk-lp-toggle-button label {
+  color: rgba(0,0,0, 0.26);
+}
+.tk-lp-toggle-button label input[type=checkbox] {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.tk-lp-toggle-button label .tk-lp-toggle {
+  text-align: left;
+}
+.tk-lp-toggle-button label .tk-lp-toggle,
+.tk-lp-toggle-button label input[type=checkbox][disabled] + .tk-lp-toggle {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  background-color: var(--tk-lp-border-grey-color);
+  border-radius: 15px;
+  margin-right: 0;
+  transition: background 0.3s ease;
+  vertical-align: middle;
+}
+.tk-lp-toggle-button label .tk-lp-toggle:after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 26px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  position: relative;
+  left: 3px;
+  top: 3px;
+  transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease;
+  text-align: center;
+}
+.tk-lp-toggle-button label input[type=checkbox][disabled] + .tk-lp-toggle:after, .tk-lp-toggle-button label input[type=checkbox][disabled]:checked + .tk-lp-toggle:after {
+  background-color: #BDBDBD;
+}
+.tk-lp-toggle-button label input[type=checkbox] + .tk-lp-toggle:active:after, .tk-lp-toggle-button label input[type=checkbox][disabled] + .tk-lp-toggle:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.tk-lp-toggle-button label input[type=checkbox]:checked + .tk-lp-toggle:after {
+  left: 23px;
+}
+.tk-lp-toggle-button label input[type=checkbox]:checked + .tk-lp-toggle {
+  background-color: var(--tk-lp-accent-color);
+}
+.tk-lp-toggle-button.blue label input[type=checkbox]:checked + .tk-lp-toggle {
+  background-color: var(--tk-lp-border-grey-color);
+}
+.tk-lp-toggle-button label input[type=checkbox]:checked + .tk-lp-toggle:active:after {
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(156, 39, 176, 0.1);
+}

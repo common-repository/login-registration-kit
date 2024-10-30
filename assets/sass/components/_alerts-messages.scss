@@ -1,0 +1,65 @@
+/*------------- #ALERT MESSAGES --------------*/
+
+
+.tk-lp-alert {
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: var(--tk-lp-white-color);
+  font-size: 14px;
+
+  .tk-lp-alert-icon {
+	margin-right: 20px;
+	line-height: 1;
+  }
+
+  .tk-lp-icon {
+	fill: var(--tk-lp-white-color);
+  }
+
+  .tk-lp-alert-text {
+	margin-right: auto;
+  }
+
+  .tk-lp-icon-close {
+	margin-left: 20px;
+	line-height: 1;
+	opacity: .4;
+
+	.tk-lp-icon {
+	  fill: var(--tk-lp-icon-color);
+	}
+
+	&:hover {
+	  opacity: 1;
+
+	  .tk-lp-icon {
+		fill: var(--tk-lp-white-color);
+	  }
+	}
+  }
+}
+
+.tk-lp-icon {
+  transition: all .3s ease;
+}
+
+.tk-lp-alert-warning {
+  background-color: var(--tk-lp-yellow-color);
+}
+
+.tk-lp-alert-success {
+  background-color: var(--tk-lp-green-color);
+}
+
+.tk-lp-alert-info {
+  background-color: var(--tk-lp-blue-color);
+}
+
+.tk-lp-alert-error {
+  background-color: var(--tk-lp-red-color);
+}

@@ -1,0 +1,62 @@
+
+/*------------- crumina-sign-form --------------*/
+.crumina-sign-form {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.08);
+    background-color: var(--white-color);
+    margin-bottom: 30px; }
+  
+  .input-title {
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 10px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between; }
+    .input-title .optional {
+      font-size: 14px;
+      color: var(--body-font-color); }
+  
+  .form-block-subscribe {
+    display: -webkit-box;
+    display: flex; }
+    .form-block-subscribe .block-subscribe-text {
+      margin-left: 20px;
+      font-size: 14px; }
+  
+  .form-block-check {
+    display: -webkit-box;
+    display: flex; }
+    .form-block-check .block-check-text {
+      margin-left: 20px;
+      font-size: 14px; }
+  
+  .login-socials {
+    text-align: center; }
+  
+  .login-socials-items {
+    display: -webkit-inline-box;
+    display: inline-flex; }
+  
+  .login-socials-item {
+    padding: 11px 25px;
+    fill: var(--white-color);
+    border-radius: 5px;
+    margin: 5px;
+    display: -webkit-inline-box;
+    display: inline-flex; }
+    .login-socials-item .crumina-icon {
+      margin: auto; }
+    .login-socials-item:hover {
+      fill: var(--white-color);
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4); }
+  
+  .form-block-remember {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+            justify-content: space-between; }

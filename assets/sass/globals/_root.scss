@@ -1,0 +1,32 @@
+/*------------- #ROOT --------------*/
+
+
+:root {
+
+  //Colors
+  --tk-lp-accent-color: #{inspect($tk-pl-accent-color)};
+  --tk-lp-form-color: #{inspect($tk-lp-form-color)};
+
+  //Buttons colors
+  --tk-lp-dark-button-color: #{inspect($tk-pl-dark-button-color)};
+  --tk-pl-button-primary: #{inspect($tk-pl-button-primary)};
+  --tk-lp-grey-button-color: #{inspect($tk-lp-grey-button-color)};
+
+  --tk-lp-dark-color: #{inspect($tk-lp-dark-color)};
+  --tk-lp-border-grey-color: #{inspect($tk-lp-border-grey-color)};
+  --tk-lp-white-color: #{inspect($tk-lp-white-color)};
+  --tk-lp-caret-color: #{inspect($tk-lp-caret-color)};
+  --tk-lp-input-color: #{inspect($tk-lp-input-color)};
+  --tk-lp-placeholder-color: #{inspect($tk-lp-placeholder-color)};
+  --tk-lp-box-shadow-color: #{inspect($tk-lp-box-shadow-color)};
+  --tk-lp-form-title-font-size: #{inspect($tk-lp-form-title-font-size)};
+  --tk-lp-form-title-font-weight: #{inspect($tk-lp-form-title-font-weight)};
+  --tk-lp-form-title-color: #{inspect($tk-lp-form-title-color)};
+  --tk-lp-link-color: #{inspect($tk-lp-link-color)};
+  --tk-lp-icon-color: #{inspect($tk-lp-icon-color)};
+
+  --tk-lp-green-color: #{inspect($tk-lp-green-color)};
+  --tk-lp-red-color: #{inspect($tk-lp-red-color)};
+  --tk-lp-blue-color: #{inspect($tk-lp-blue-color)};
+  --tk-lp-yellow-color: #{inspect($tk-lp-yellow-color)};
+}

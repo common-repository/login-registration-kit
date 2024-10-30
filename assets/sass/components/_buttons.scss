@@ -1,0 +1,65 @@
+/*------------- #BUTTONS --------------*/
+
+
+.tk-lp-form {
+
+  a.tk-lp-button,
+  .tk-lp-button {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 3px;
+    position: relative;
+    transition: all .3s ease;
+    text-align: center;
+    line-height: 1;
+    font-weight: 700;
+    fill: currentColor;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    padding: .9rem 3.85rem;
+    color: var(--tk-lp-white-color);
+
+    &:active,
+    &:hover,
+    &:focus {
+      outline: none;
+      background-color: var(--tk-lp-accent-color);
+      color: var(--tk-lp-white-color);
+    }
+  }
+
+  .tk-lp-w-full {
+    width: 100%;
+  }
+
+  a.tk-lp-button--dark,
+  .tk-lp-button--dark {
+    background-color: var(--tk-lp-dark-button-color);
+  }
+
+  a.tk-lp-button--grey,
+  .tk-lp-button--grey {
+    background-color: var(--tk-lp-grey-button-color);
+    color: var(--tk-lp-dark-color);
+
+    &:active,
+    &:hover,
+    &:focus {
+      color: var(--tk-lp-white-color);
+      background-color: var(--tk-lp-accent-color);
+    }
+  }
+}
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 768px) {
+
+  .tk-lp-form a.tk-lp-button,
+  .tk-lp-form .tk-lp-button {
+    font-size: 14px;
+    padding: 1rem;
+  }
+}

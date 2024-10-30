@@ -1,0 +1,745 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Login registration kit\n"
+"POT-Creation-Date: 2021-09-20 10:39+0300\n"
+"PO-Revision-Date: 2021-09-20 10:39+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: login-registration-kit.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-lrk-admin-settings.php:32
+msgid "User Registration Settings"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:34
+msgid "General"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:36
+#: includes/admin/class-lrk-admin.php:246
+msgid "User Menu Dropdown"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:37
+msgid "My account Section"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:38
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:43
+msgid "Login Options"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:44
+msgid "Register Options"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:63
+msgid "Register shordcode:"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:64
+msgid "Sign in shordcode:"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:65
+msgid "Both shordcode:"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:71
+msgid "Account page shordcode:"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:481
+#: includes/frontend/views/my-account.php:77
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:503
+msgid "Add new"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:724
+msgid "Prevent dashboard access"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:726
+msgid ""
+"This option lets you limit which roles you are willing to prevent dashboard "
+"access."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:731
+msgid "Login form template"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:734
+#: includes/admin/class-lrk-admin-settings.php:815
+msgid "Simple"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:735
+#: includes/admin/class-lrk-admin-settings.php:816
+msgid "Custom shortcode"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:741
+msgid "Choose the login form template."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:746
+#: includes/admin/class-lrk-admin-settings.php:827
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:755
+#: includes/admin/class-lrk-admin-settings.php:859
+msgid "Redirect URL"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:756
+msgid "URL to redirect to after login."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:761
+msgid "Enable hide/show password"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:763
+msgid "Check to enable hide/show password icon."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:768
+#: includes/admin/class-lrk-admin-settings.php:865
+msgid "Hide field labels"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:770
+#: includes/admin/class-lrk-admin-settings.php:867
+msgid "Check to hide field labels."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:775
+msgid "Enable remember me"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:777
+msgid "Check to enable/disable remember me."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:782
+msgid "Enable lost password"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:784
+msgid "Check to enable/disable lost password."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:793
+msgid "User login option"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:796
+msgid "Manual login after registration"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:797
+msgid "Auto login after registration"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:799
+msgid "This option lets you choose login option after user registration."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:804
+msgid "Default user role"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:807
+msgid "Default role for the users registered through this form."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:812
+msgid "Register form template"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:822
+msgid "Choose the register form template."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:838
+msgid "Fields to display"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:845
+msgid "Basic"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:846
+msgid "Required"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:847
+msgid "All Fields"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:860
+msgid "URL to redirect to after registration."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:872
+msgid "Disable standard registration page."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:874
+msgid "Disable page url "
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:883
+msgid "Standart registration redirect URL"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:897
+msgid "Enable Google reCaptcha V3"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:898
+msgid ""
+"About <a href=\"https://www.google.com/recaptcha\" target=\"_blank\"> "
+"reCaptcha </a>."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:903
+msgid "ReCaptcha V3 Site Key"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:904
+msgid ""
+"Get site key from google <a href=\"https://www.google.com/recaptcha\" target="
+"\"_blank\"> reCaptcha </a>."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:909
+msgid "ReCaptcha V3 Secret Key"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:910
+msgid ""
+"Get secret key from google <a href=\"https://www.google.com/recaptcha\" "
+"target=\"_blank\"> reCaptcha </a>."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:918
+msgid "In the end of navigation"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:919
+msgid "Set User Menu Dropdown as a last menu item."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:924
+msgid "Select menu"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:925
+msgid "Select navigation for user menu dropdown."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:931
+#: includes/frontend/elementor-widgets/user-dropdown.php:59
+msgid "Avatar size (width px)"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:933
+msgid "This option lets you enter the avatar image with."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:938
+#: includes/frontend/elementor-widgets/user-dropdown.php:32
+msgid "Text with avatar"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:939
+#: includes/frontend/elementor-widgets/user-dropdown.php:33
+msgid "This option lets you enter the text with avatar."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:940
+msgid "Your account"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:945
+#: includes/frontend/elementor-widgets/user-dropdown.php:41
+msgid "No user login text (HTML)"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:946
+msgid "Login"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:951
+#: includes/frontend/elementor-widgets/user-dropdown.php:121
+msgid "Icon color"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:960
+msgid "My account page"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:961
+msgid ""
+"Select the page which contains your login form: "
+"[user_registration_kit_my_account]."
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:967
+msgid "Tabs"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:973
+msgid "Title *"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:979
+msgid "Text"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:984
+msgid "Show in drop-down"
+msgstr ""
+
+#: includes/admin/class-lrk-admin-settings.php:994
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:65
+msgid "Account page"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:116
+msgid "LRK Forms"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:117
+msgid "LRK Form"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:118
+msgid "Add new form"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:119
+msgid "No forms found."
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:142
+msgid "Frontend Registration Kit"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:143
+msgid "Registration Kit"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:174
+msgid "Your settings have been saved."
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:185
+#, php-format
+msgid ""
+"To allow users to register for your website via User registration, you must "
+"first enable user registration. Go to %1$sSettings > General%2$s tab, and "
+"under Membership make sure to check <strong>Anyone can register</strong>."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/admin/class-lrk-admin.php:229
+#: includes/frontend/class-lrk-frontend.php:1060
+msgid "Login registration kit"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:239
+msgid "LRK User Menu"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:266
+#: includes/frontend/class-lrk-frontend.php:849
+#: includes/frontend/class-lrk-frontend.php:881
+#: includes/frontend/class-lrk-frontend.php:887
+msgid "Profile Settings"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:318
+msgid "Add to Menu"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:477
+#: includes/admin/class-lrk-admin.php:481
+msgid "Day"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:490
+#: includes/admin/class-lrk-admin.php:494
+msgid "Month"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:498
+msgid "January"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:499
+msgid "February"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:500
+msgid "March"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:501
+msgid "April"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:502
+msgid "May"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:503
+msgid "June"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:504
+msgid "July"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:505
+msgid "August"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:506
+msgid "September"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:507
+msgid "October"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:508
+msgid "November"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:509
+msgid "December"
+msgstr ""
+
+#: includes/admin/class-lrk-admin.php:518
+#: includes/admin/class-lrk-admin.php:522
+msgid "Year"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:332
+#: includes/frontend/class-lrk-frontend.php:386
+msgid "Login is required"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:336
+msgid "Password is required"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:344
+#: includes/frontend/class-lrk-frontend.php:421
+msgid "Whrong captcha"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:389
+msgid "Email is required"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:392
+msgid "Minimum password length is 6 characters"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:394
+msgid "Password and confirm password does not match"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:400
+msgid "Please, accept privacy policy"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:410
+msgid " is required"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:492
+msgid "This username is already registered. Please choose another one."
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:496
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:646
+msgid "Your Name field is required"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:650
+msgid "E-mail field is required"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:654
+msgid "Nickname field is required"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:658
+msgid "Invalid e-mail"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:664
+msgid "Invalid password"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:668
+msgid "Please, enter new password"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:672
+msgid "Passwords do not match"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:699
+#: includes/frontend/class-lrk-frontend.php:759
+msgid "Oops something went wrong updaing your account."
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:720
+msgid "Enter a username or e-mail address.."
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:722
+msgid "Invalid username or e-mail address."
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:724
+msgid "There is no user registered with that email address."
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:737
+msgid "Your new password"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:740
+#, php-format
+msgid "Your new password is: %1$s"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:750
+msgid "Check your email address for you new password."
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:753
+msgid "Oops something went wrong updaing your account!"
+msgstr ""
+
+#: includes/frontend/class-lrk-frontend.php:883
+#: includes/frontend/class-lrk-frontend.php:899
+#: includes/frontend/views/my-account.php:39
+msgid "Logout"
+msgstr ""
+
+#: includes/frontend/elementor-widgets/user-dropdown.php:13
+#: includes/frontend/elementor-widgets/user-dropdown.php:24
+msgid "User dropdown menu"
+msgstr ""
+
+#: includes/frontend/elementor-widgets/user-dropdown.php:52
+msgid "Avatar"
+msgstr ""
+
+#: includes/frontend/elementor-widgets/user-dropdown.php:77
+msgid "Border"
+msgstr ""
+
+#: includes/frontend/elementor-widgets/user-dropdown.php:87
+#: includes/frontend/elementor-widgets/user-dropdown.php:167
+msgid "Border Radius"
+msgstr ""
+
+#: includes/frontend/elementor-widgets/user-dropdown.php:102
+msgid "Color settings"
+msgstr ""
+
+#: includes/frontend/elementor-widgets/user-dropdown.php:109
+#: includes/frontend/elementor-widgets/user-dropdown.php:154
+msgid "Text color"
+msgstr ""
+
+#: includes/frontend/elementor-widgets/user-dropdown.php:136
+msgid "Dropdown navigation"
+msgstr ""
+
+#: includes/frontend/elementor-widgets/user-dropdown.php:143
+msgid "Background"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:24
+#: includes/frontend/views/my-account.php:62
+msgid "Settings"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:63
+msgid "Edit profile"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:73
+msgid "Update profile image"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:84
+msgid "Your Name"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:88
+msgid "Nickname"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:92
+#: includes/frontend/views/register-form.php:47
+#: includes/frontend/views/sign-form.php:75
+msgid "Email Address"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:96
+msgid "Password change"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:99
+msgid "Current Password"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:103
+msgid "New Password"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:107
+#: includes/frontend/views/register-form.php:67
+msgid "Confirm Password"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:110
+msgid "Save Changes"
+msgstr ""
+
+#: includes/frontend/views/my-account.php:116
+msgid "Please sign in"
+msgstr ""
+
+#: includes/frontend/views/register-form.php:31
+msgid "Thanks for registration!"
+msgstr ""
+
+#: includes/frontend/views/register-form.php:32
+#, php-format
+msgid ""
+"We just send you an Email. %s Please Open it up to activate your account."
+msgstr ""
+
+#: includes/frontend/views/register-form.php:38
+msgid "Sign Up"
+msgstr ""
+
+#: includes/frontend/views/register-form.php:41
+msgid "Username"
+msgstr ""
+
+#: includes/frontend/views/register-form.php:61
+#: includes/frontend/views/sign-form.php:43
+msgid "Password"
+msgstr ""
+
+#: includes/frontend/views/register-form.php:84
+msgid "I agree to "
+msgstr ""
+
+#: includes/frontend/views/register-form.php:92
+msgid "Register"
+msgstr ""
+
+#: includes/frontend/views/register-form.php:98
+msgid ""
+"To allow users to register for your website via User registration, you must "
+"first enable user registration."
+msgstr ""
+
+#: includes/frontend/views/register-form.php:102
+msgid "I have an account!"
+msgstr ""
+
+#: includes/frontend/views/sign-form.php:32
+#: includes/frontend/views/sign-form.php:82
+msgid "Sign In"
+msgstr ""
+
+#: includes/frontend/views/sign-form.php:35
+msgid "Username or Email Address"
+msgstr ""
+
+#: includes/frontend/views/sign-form.php:56
+msgid "Remember Me"
+msgstr ""
+
+#: includes/frontend/views/sign-form.php:60
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/frontend/views/sign-form.php:65
+msgid "Log In"
+msgstr ""
+
+#: includes/frontend/views/sign-form.php:67
+#: includes/frontend/views/sign-form.php:80
+msgid "Create an Account"
+msgstr ""
+
+#: includes/frontend/views/sign-form.php:72
+msgid "Lost Password"
+msgstr ""
+
+#: includes/frontend/views/sign-form.php:78
+msgid "Get New Password"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://crumina.net/wp-plugins/registration-kit/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Simply great frontend login and registration tool. We created it for us but "
+"think it will helpful for you too. Main plugin purpose - create beautiful "
+"forms and popups for simple frontend login and registration. And creating "
+"simple User dashboard."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Crumina team"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://crumina.net/"
+msgstr ""

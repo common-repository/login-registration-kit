@@ -1,0 +1,138 @@
+/*------------- #TABS --------------*/
+
+
+.tk-lp-tabs {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.tk-lp-tabs-items {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.tk-lp-tabs-content {
+  flex: 0 0 75%;
+  max-width: 75%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.tk-lp-tabs-logout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  color: var(--tk-lp-dark-color);
+  fill: var(--tk-lp-icon-color);
+  text-decoration: none;
+  transition: all .3s ease;
+
+  &:focus,
+  &:hover {
+	color: var(--tk-lp-accent-color);
+	fill: var(--tk-lp-accent-color);
+  }
+
+  .tk-lp-icon {
+	width: 20px;
+	height: 20px;
+  }
+}
+
+.tk-lp-tabs-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: var(--tk-lp-dark-color);
+  fill: var(--tk-lp-icon-color);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 20px;
+  transition: all .3s ease;
+
+  &.active,
+  &:focus,
+  &:hover {
+	color: var(--tk-lp-white-color);
+	fill: var(--tk-lp-white-color);
+	background-color: var(--tk-lp-accent-color);
+
+	a {
+	  color: var(--tk-lp-white-color);
+	  fill: var(--tk-lp-white-color);
+	}
+  }
+
+  .tk-lp-icon {
+	width: 20px;
+	height: 20px;
+  }
+}
+
+.tk-lp-tabs-form-content {
+  display: none;
+
+  &.active {
+	display: block;
+	animation: fade 0.35s ease;
+  }
+}
+
+.tk-lp-tabs-content-item {
+  display: none;
+
+  &.active {
+	display: block;
+	animation: fade 0.35s ease;
+  }
+
+  .tk-lp-component-form {
+	margin: 0;
+  }
+
+  .tk-lp-form {
+	padding: 0;
+	box-shadow: none;
+	background-color: transparent;
+  }
+
+  .tk-lp-form-title-small,
+  .tk-lp-form-title {
+	text-align: left;
+  }
+}
+
+@keyframes fade {
+  from {
+	opacity: 0;
+  }
+  to {
+	opacity: 1;
+  }
+}
+
+
+/*------------- Responsive Mode --------------*/
+
+@media (max-width: 768px) {
+  .tk-lp-tabs {
+	flex-direction: column;
+  }
+
+  .tk-lp-tabs-content,
+  .tk-lp-tabs-items {
+	flex: 0 0 100%;
+	max-width: 100%;
+  }
+
+  .tk-lp-tabs-items {
+	margin-bottom: 40px;
+	max-width: 220px;
+  }
+}

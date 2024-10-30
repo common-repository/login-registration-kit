@@ -1,0 +1,61 @@
+/*------------- #CHECKBOXES --------------*/
+
+.tk-lp-checkbox {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 0;
+  color: var(--tk-lp-dark-color);
+}
+.tk-lp-checkbox input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.tk-lp-control-indicator {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  background: var(--tk-lp-white-color);
+  border-radius: 3px;
+  margin-right: 10px;
+  display: inline-block;
+  border: 2px solid var(--tk-lp-border-grey-color);
+}
+.tk-lp-checkbox input:focus ~ .tk-lp-control-indicator {
+  background: var(--tk-lp-white-color);
+}
+.tk-lp-checkbox input:checked ~ .tk-lp-control-indicator {
+  background: var(--tk-lp-accent-color);
+  border-color: var(--tk-lp-accent-color);
+}
+.tk-lp-checkbox input:checked:focus ~ .tk-lp-control-indicator {
+  background: var(--tk-lp-accent-color);
+}
+.tk-lp-checkbox input:disabled ~ .tk-lp-control-indicator {
+  background: #d9dfe7;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.tk-lp-control-indicator:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+.tk-lp-checkbox input:checked ~ .tk-lp-control-indicator:after {
+  display: block;
+}
+.tk-lp-checkbox .tk-lp-control-indicator:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.tk-lp-checkbox input:disabled ~ .tk-lp-control-indicator:after {
+  border-color: #c5ccd5;
+}

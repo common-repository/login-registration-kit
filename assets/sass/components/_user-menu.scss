@@ -1,0 +1,132 @@
+/*------------- #USER MENU --------------*/
+
+
+#tk-lp-user {
+  display: inline-flex !important;
+  align-items: center !important;
+  position: relative !important;
+  text-align: left !important;
+  padding: 10px !important;
+  line-height: 1.2;
+
+  & > a {
+	padding: 0;
+	width: 100%;
+	border: none;
+  }
+
+  .tk-lp-user-avatar {
+	margin-right: 10px;
+	cursor: pointer;
+
+	img {
+	  border-radius: 100%;
+	}
+  }
+
+  .tk-lp-text-with-avatar {
+	margin-right: 10px;
+  }
+
+  &:focus,
+  &:hover {
+	fill: var(--tk-lp-accent-color);
+
+	& > .tk-lp-icon {
+	  transform: rotate(180deg);
+	}
+
+	.tk-lp-user-menu-dropdown {
+	  opacity: 1;
+	  visibility: visible;
+	  transform: scale(1);
+	  overflow-y: auto;
+	}
+  }
+
+  .tk-lp-user-menu-dropdown {
+	border-radius: 5px;
+	box-shadow: var(--tk-lp-box-shadow-color);
+	background-color: var(--tk-lp-white-color);
+	width: 260px;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(.95);
+	z-index: 999;
+	transition: all .3s ease;
+
+	&.dropdown-right {
+	  left: auto;
+	  right: 0;
+	}
+
+	.tk-lp-user-menu-dropdown-items {
+	  list-style: none;
+	  padding: 30px;
+	  max-height: 80vh;
+	  overflow-x: auto;
+
+	  a {
+		margin-bottom: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		text-decoration: none;
+		outline: 0;
+		padding: 0;
+		line-height: 1.2;
+		font-size: 14px;
+		color: var(--tk-lp-link-color);
+		fill: var(--tk-lp-icon-color);
+		background-color: transparent;
+		transition: color .2s linear, fill .2s linear;
+
+		&:before,
+		&:after {
+		  display: none !important;
+		}
+
+		&:focus,
+		&:hover {
+		  color: var(--tk-lp-accent-color);
+		  fill: var(--tk-lp-accent-color);
+		  background-color: transparent;
+		}
+
+		.tk-lp-icon {
+		  width: 20px;
+		  height: 20px;
+		}
+
+		&:last-child {
+		  margin-bottom: 0;
+		}
+	  }
+	}
+
+	.tl-lp-link-logout {
+	  padding: 15px 30px;
+	  border-top: 1px solid var(--tk-lp-border-grey-color);
+	}
+  }
+}
+
+/*------------- Responsive Mode --------------*/
+
+
+@media (max-width: 1024px) {
+  #tk-lp-user {
+	display: flex !important;
+  }
+
+  #tk-lp-user .tk-lp-user-menu-dropdown {
+	display: none;
+  }
+
+  #tk-lp-user .tk-lp-dropdown-icon {
+	display: none;
+  }
+}

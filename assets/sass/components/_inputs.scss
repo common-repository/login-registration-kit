@@ -1,0 +1,80 @@
+/*------------- #INPUTS --------------*/
+
+
+.tk-lp-form .tk-lp-input {
+  padding: .75rem 1.375rem;
+  font-size: 16px;
+  border: 1px solid var(--tk-lp-border-grey-color);
+  background-color: var(--tk-lp-white-color);
+  width: 100%;
+  outline: none;
+  caret-color: var(--tk-lp-caret-color);
+  color: var(--tk-lp-input-color);
+  max-height: 50px;
+  font-family: inherit;
+  border-radius: 5px;
+  margin: 0;
+  transition: all .3s ease;
+
+  &::-webkit-input-placeholder {
+	color: var(--tk-lp-placeholder-color);
+	opacity: 1;
+  }
+  &::-moz-placeholder {
+	color: var(--tk-lp-placeholder-color);
+	opacity: 1;
+  }
+  /* Firefox 19+ */
+  &:-moz-placeholder {
+	color: var(--tk-lp-placeholder-color);
+	opacity: 1;
+  }
+  /* Firefox 18- */
+  &:-ms-input-placeholder {
+	color: var(--tk-lp-placeholder-color);
+	opacity: 1;
+  }
+
+  &:focus {
+	border-color: var(--tk-lp-input-color);
+	color: var(--tk-lp-accent-color);
+	box-shadow: var(--tk-lp-box-shadow-color);
+
+	&::-webkit-input-placeholder {
+	  color: var(--tk-lp-border-grey-color);
+	  opacity: 1;
+	}
+	&::-moz-placeholder {
+	  color: var(--tk-lp-border-grey-color);
+	  opacity: 1;
+	}
+	/* Firefox 19+ */
+	&:-moz-placeholder {
+	  color: var(--tk-lp-border-grey-color);
+	  opacity: 1;
+	}
+	/* Firefox 18- */
+	&:-ms-input-placeholder {
+	  color: var(--tk-lp-border-grey-color);
+	  opacity: 1;
+	}
+  }
+
+  &:invalid {
+	border-width: 1px;
+  }
+
+  &:invalid {
+	border: 1px solid #ed1c24;
+  }
+}
+
+.tk-lp-form .tk-lp-file-input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  cursor: pointer;
+}

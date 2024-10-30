@@ -1,0 +1,43 @@
+/*------------- #SOCIALS --------------*/
+
+.tk-lp-socials {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.tk-lp-socials-title {
+  margin-bottom: 0.53em;
+  line-height: 1.3em;
+  font-size: 24px;
+  text-align: center;
+  color: var(--tk-lp-dark-color);
+}
+
+.tk-lp-socials-items {
+  display: inline-flex;
+}
+
+.tk-lp-socials-item {
+  padding: 8px 25px;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-flex;
+  fill: var(--tk-lp-white-color);
+
+  .tk-lp-icon {
+	margin: auto;
+  }
+
+  &:hover {
+	fill: var(--tk-lp-white-color);
+	box-shadow: var(--tk-lp-box-shadow-color);
+  }
+}
+
+.tk-lp-bg-facebook {
+  background-color: $tk-lp-c-facebook;
+}
+
+.tk-lp-bg-google {
+  background-color: $tk-lp-c-google;
+}
